@@ -108,8 +108,7 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     audio_effects.conf \
     CMWallpapers \
-    Apollo \
-    CMUpdater
+    Apollo
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
@@ -124,6 +123,12 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 PRODUCT_VERSION_MAJOR = 9
 PRODUCT_VERSION_MINOR = 1
 PRODUCT_VERSION_MAINTENANCE = 0
+
+# Foxdroid const variables
+FOX_BUILD_VERSION := 1.0
+
+ADDITIONAL_BUILD_PROPERTIES += \
+    ro.fox.version=$(FOX_BUILD_VERSION)
 
 # Set CM_BUILDTYPE
 ifdef CM_NIGHTLY
@@ -155,10 +160,6 @@ else
     CM_VERSION := $(PRODUCT_VERSION_MAJOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)-$(CM_BUILD)$(CM_EXTRAVERSION)
 endif
 
-# Foxdroid const variables
-KEY_FOXDROID_BUILD_VERSION := 1.0.0
-
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.cm.version=$(CM_VERSION) \
-  ro.modversion=$(CM_VERSION) \
-  ro.fox.version=$(KEY_FOXDROID_BUILD_VERSION)
+  ro.modversion=$(CM_VERSION)
