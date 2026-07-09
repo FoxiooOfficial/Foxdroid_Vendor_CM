@@ -1,0 +1,12 @@
+# Foxdroid
+*****************
+
+Foxdroid is an UNOFFICIAL fork of CyanogenMod 9.1.0 designed to introduce fixes and major changes to the system itself;
+Changelog documenting system changes;
+
+*****************
+
+## 1.0 
+### 2026.07.06 - 2026.07.10
+* Changes to Settings.apk > Modifying the About Phone/Tablet screen;
+* The boot screen has been changed;
