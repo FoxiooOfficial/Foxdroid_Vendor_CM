@@ -27,8 +27,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
-    vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-CM.txt \
-    vendor/cm/CHANGELOGFOXDROID.mkdn:system/etc/CHANGELOG-FOXDROID.txt
+    vendor/cm/CHANGELOG_CYANOGENMOD.mkdn:system/etc/CHANGELOG-CM.txt \
+    vendor/cm/CHANGELOG_FOXDROID.mkdn:system/etc/CHANGELOG-FOXDROID.txt
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -136,9 +136,11 @@ PRODUCT_VERSION_MAINTENANCE = 0
 
 # Foxdroid const variables
 FOX_BUILD_VERSION := 1.0
+FOX_BUILD_VERSION_CODENAME := Pancake
 
-ADDITIONAL_BUILD_PROPERTIES += \
-    ro.fox.version=$(FOX_BUILD_VERSION)
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.fox.version=$(FOX_BUILD_VERSION) \
+    ro.fox.version.codename=$(FOX_BUILD_VERSION_CODENAME)
 
 # Set CM_BUILDTYPE
 ifdef CM_NIGHTLY

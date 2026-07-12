@@ -6,7 +6,9 @@ Changelog documenting system changes;
 
 *****************
 
-## 1.0 
-### 2026.07.06 - 2026.07.10
+## 1.0 (Pancake)
+### 2026.07.06 - 2026.07.12
+* "Nyandroid" easter-egg has been fixed so that droids fit on smaller resolutions;
+* Many pre-installed apps from CM have been removed;
 * Changes to Settings.apk > Modifying the About Phone/Tablet screen;
 * The boot screen has been changed;
