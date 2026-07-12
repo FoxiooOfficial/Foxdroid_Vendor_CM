@@ -80,36 +80,45 @@ PRODUCT_COPY_FILES += \
 include vendor/cm/config/themes_common.mk
 
 # Required CM packages
+# PRODUCT_PACKAGES += \
+#     Camera \
+#     Development \
+#     LatinIME \
+#     SpareParts \
+#     su
+
 PRODUCT_PACKAGES += \
     Camera \
-    Development \
     LatinIME \
     SpareParts \
     su
 
 # Optional CM packages
-PRODUCT_PACKAGES += \
-    VideoEditor \
-    VoiceDialer \
-    SoundRecorder \
-    Basic \
-    HoloSpiralWallpaper \
-    MagicSmokeWallpapers \
-    NoiseField \
-    Galaxy4 \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    VisualizationWallpapers \
-    PhaseBeam
+# PRODUCT_PACKAGES += \
+#     VideoEditor \
+#     VoiceDialer \
+#     SoundRecorder \
+#     Basic \
+#     HoloSpiralWallpaper \
+#     MagicSmokeWallpapers \
+#     NoiseField \
+#     Galaxy4 \
+#     LiveWallpapers \
+#     LiveWallpapersPicker \
+#     VisualizationWallpapers \
+#     PhaseBeam
 
 # Custom CM packages
+# PRODUCT_PACKAGES += \
+#     Trebuchet \
+#     DSPManager \
+#     libcyanogen-dsp \
+#     audio_effects.conf \
+#     CMWallpapers \
+#     Apollo
+
 PRODUCT_PACKAGES += \
-    Trebuchet \
-    DSPManager \
-    libcyanogen-dsp \
-    audio_effects.conf \
-    CMWallpapers \
-    Apollo
+    Trebuchet
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
