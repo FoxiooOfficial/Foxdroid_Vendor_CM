@@ -4,10 +4,14 @@
 Foxdroid is an UNOFFICIAL fork of CyanogenMod 9.1.0 designed to introduce fixes and major changes to the system itself;
 Changelog documenting system changes;
 
+Fork author: Foxioo;
+Special thanks to the authors of CyanogenMod and AOSP for their amazing work!
+
 *****************
 
 ## 1.0 (Pancake)
-### 2026.07.06 - 2026.07.12
+### 2026.07.06 - 2026.07.13
+* In the app information, added "Launch app" button and separated "Disable/Enable" from "Uninstall" button;
 * "Nyandroid" easter-egg has been fixed so that droids fit on smaller resolutions;
 * Many pre-installed apps from CM have been removed;
 * Changes to Settings.apk > Modifying the About Phone/Tablet screen;

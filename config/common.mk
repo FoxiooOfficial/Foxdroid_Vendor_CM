@@ -108,6 +108,9 @@ PRODUCT_PACKAGES += \
 #     VisualizationWallpapers \
 #     PhaseBeam
 
+PRODUCT_PACKAGES += \
+    Basic
+
 # Custom CM packages
 # PRODUCT_PACKAGES += \
 #     Trebuchet \
@@ -118,7 +121,8 @@ PRODUCT_PACKAGES += \
 #     Apollo
 
 PRODUCT_PACKAGES += \
-    Trebuchet
+    Trebuchet \
+    Apollo
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
